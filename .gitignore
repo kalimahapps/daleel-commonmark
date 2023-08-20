@@ -1,0 +1,4 @@
+vendor/**
+build/**
+daleel-temp
+.vscode/settings.json

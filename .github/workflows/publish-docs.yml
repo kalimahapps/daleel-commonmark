@@ -1,0 +1,31 @@
+name: Publish Laravel Docs
+
+on:
+  push:
+    branches: ["master"]
+    paths: ["daleel.php"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup composer
+        uses: php-actions/composer@v6
+        with:
+          php_version: "8.1"
+
+      - name: Build docs
+        run: ./vendor/bin/daleel build
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+        with:
+          server: ${{ secrets.FTP_SERVER}}
+          username: ${{ secrets.FTP_ACCOUNT}}
+          password: ${{ secrets.FTP_PASSWORD}}
+          server-dir: "/daleel/commonmark/"
+          local-dir: "build/"
