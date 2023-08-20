@@ -228,6 +228,7 @@ $config->defineConfig(array(
 				),
 				'docs_path'    => 'docs/2.2',
 				'docs_index'   => 'index',
+				'assets_path'  => 'images',
 				'sidebar'      => $sidebar,
 				'nav'          => $nav,
 				'notice'       => array(
@@ -244,6 +245,7 @@ $config->defineConfig(array(
 				),
 				'docs_path'    => 'docs/2.3',
 				'docs_index'   => 'index',
+				'assets_path'  => 'images',
 				'sidebar'      => $sidebar,
 				'nav'          => $nav,
 				'notice'       => array(
@@ -260,6 +262,7 @@ $config->defineConfig(array(
 				),
 				'docs_path'    => 'docs/2.4',
 				'docs_index'   => 'index',
+				'assets_path'  => 'images',
 				'sidebar'      => $sidebar,
 				'nav'          => $nav,
 				'social_links' => $social_links,

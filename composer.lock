@@ -189,16 +189,16 @@
         },
         {
             "name": "kalimahapps/daleel",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kalimahapps/daleel.git",
-                "reference": "74dff25a0014e62adef27a8fb2a527161b9de232"
+                "reference": "19aa8b8b9e66567091f5fb11e90bd44468a89dd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kalimahapps/daleel/zipball/74dff25a0014e62adef27a8fb2a527161b9de232",
-                "reference": "74dff25a0014e62adef27a8fb2a527161b9de232",
+                "url": "https://api.github.com/repos/kalimahapps/daleel/zipball/19aa8b8b9e66567091f5fb11e90bd44468a89dd8",
+                "reference": "19aa8b8b9e66567091f5fb11e90bd44468a89dd8",
                 "shasum": ""
             },
             "require": {
@@ -257,9 +257,9 @@
             ],
             "support": {
                 "issues": "https://github.com/kalimahapps/daleel/issues",
-                "source": "https://github.com/kalimahapps/daleel/tree/1.0.3"
+                "source": "https://github.com/kalimahapps/daleel/tree/1.0.4"
             },
-            "time": "2023-08-20T11:42:19+00:00"
+            "time": "2023-08-20T14:02:28+00:00"
         },
         {
             "name": "league/commonmark",

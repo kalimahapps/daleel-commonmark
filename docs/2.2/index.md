@@ -3,7 +3,7 @@ layout: default
 title: Overview
 ---
 
-<img class="banner" src="/images/commonmark-banner.png" alt="CommonMark for PHP" />
+![CommonMark for PHP](/images/commonmark-banner.png)
 
 # Overview
 
@@ -15,7 +15,7 @@ title: Overview
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/thephpleague/commonmark.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/commonmark/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/thephpleague/commonmark.svg?style=flat-square)](https://scrutinizer-ci.com/g/thephpleague/commonmark)
 
-{{ site.data.project.highlights.description }}
+The PHP `CommonMark` parser is a robust, highly-extensible Markdown parser for PHP based on the [CommonMark](https://spec.commonmark.org/) and [GitHub-Flavored Markdown](https://github.github.com/gfm/) specifications.
 
 ## Installation
 
